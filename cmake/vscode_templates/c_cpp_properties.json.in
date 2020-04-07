@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "@C_CPP_INCLUDES@"
+            ],
+            "defines": [
+                "STM32F@STM32_STARTUP_NAME@"
+            ],
+            "compilerPath": "@TOOLCHAIN_BIN_DIR@/@TARGET_TRIPLET@-gcc@TOOL_EXECUTABLE_SUFFIX@",
+            "compilerArgs":[],
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}
