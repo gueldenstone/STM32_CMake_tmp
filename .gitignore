@@ -54,4 +54,5 @@ Mkfile.old
 dkms.conf
 
 # user ignores
-./build
+build
+.vscode
